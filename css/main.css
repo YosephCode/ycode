@@ -1,10 +1,11 @@
-
+/*-----RESET-----*/
 * {
-margin:0;
-padding:0;
-list-style:none;
-vertical-align:baseline;
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:baseline;
 }
+/*-----Ícones-----*/
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?-10e19i');
@@ -45,13 +46,18 @@ vertical-align:baseline;
 	margin-left: .25em;
 }
 
-body{
+/*-----Corpo da Página-----*/
+body
+{
 	width: 100%;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
 }
 
 
 /*--------CABEÇALHO--------*/
-header{
+header
+{
 	width:100%;
 	background-color:rgba(241,238,217,0.5);
 	background-image: linear-gradient(to right, rgba(88,53,26,0.4) 1px, transparent 0.5px);
@@ -59,12 +65,19 @@ header{
 	box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);
 	border-radius: 0px 3px 30px 30px;
 }
-.logo {
+section.principal
+{
+	position:relative;
+}
+.logo 
+{
 	width: 28%;
 	margin-left: 4.5%;
 	margin-top: 2%;
 }
-.search{
+
+.search
+{
 	position: absolute;
 	right: 8%;
 	border-radius: 15px 2px 15px 2px;
@@ -73,27 +86,219 @@ header{
 	height: 6%;
 	box-shadow: 4px 2px rgba(88,53,26,0.4);	
 }
-nav ul{
-	position: absolute;
-	right: 3%;
-	margin-top: 7%;
+
+
+/*--------CONTEUDO PERFIL--------*/
+
+section.conteudo
+{
+	position: relative;
+	width: 100%;
 }
-nav li{
+
+.bandeirinha
+{
+	 position: relative;
+	 line-height:0;
+	 width:3%;
+	 border-style: solid;/*linear-gradient(45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);*/
+	 border-color: #8c3310 #8c3310 #fff #8c3310;
+	 border-width: 150px 120px 110px 120px;
+	 margin: 0 8%;
+}
+.frase
+{
+	font-size:2.2em;
+	position: absolute;
+	right: 15%;
+	top: 12%;
+	width: 40%;
+
+	text-shadow: 2px -2px 8px rgba(0, 0, 0, 0.1); 
+}
+.espaco
+{
+	margin-left: 2%;
+}
+p.frase:first-letter
+{
+	font-size:1.5em;
+}
+p.frase:before
+{
+	content: open-quote;
+	font-size: 2em;
+	font-weight:bold;
+}
+p.frase:after
+{
+	content: close-quote;
+	font-size: 1.3em;
+}
+
+hr
+{
+	margin-top: 5%;
+	margin-bottom: 4%;
+}
+/*-----Coneúdo parte dois, Habilidades-----*/
+.habilidades h2
+{
+	color: white;
+	font-size:2.2em;
+	margin-left: 10%;
+	margin-bottom: 2.5%;
+}
+.habilidades li
+{
+	color:white;
+	font-size:1.8em;
+	margin-left: 10%;
+}
+
+
+
+article.front, article.back, article.editor
+{
+	background: rgba(88,53,26, 0.6);
+	padding: 3.5%;
+	margin-top: 5%;
+	width: 30%;
+	float: left;
+	-webkit-transition: padding 1.5s;
+	border-radius: 90px 0 80px 0;
+}
+article.front
+{
+	margin-left: 3%;
+}
+article.back
+{
+	width: 21%;
+	border-radius: 0  0 80px 90px;
+}
+article.editor
+{
+	width: 25%;
+	border-radius: 0 90px;
+	float: right;
+	margin-bottom: 12%;
+	margin-right:3%;
+	padding:3.5% 2%;
+}
+.front:hover, .back:hover, .editor:hover 
+{
+   border-radius: 50px;
+   background: rgba(0,0,0,0.9);
+  /* HOVER ON */
+   -webkit-transition: border-radius 1.5s;
+}
+.front:hover
+{
+	border-radius:50px 50px 50px 0;
+}
+
+
+/*-----Habilidades parte 3 com Gradiente-----*/
+article.imagem
+{
+	position: absolute;
+	top: 182%;
+	left: 3%;
+
+}
+.perfil-foto
+{
+	position: absolute;
+	width: 48%;
+	border-radius: 0 50%;
+	margin:0;
+	padding: 0;
+}
+.frase2
+{
+	text-shadow: 2px -2px 8px rgba(150, 150, 150, 0.2); 
+	width: 35%;
+	font-size: 2em;
+	float: right;
+	padding-top:5%; 
+	padding-right: 7%;
+}
+p.frase2:before
+{
+	content: open-quote;
+	font-size: 2em;
+	font-weight:bold;
+}
+p.frase2:after
+{
+	content: close-quote;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.outros
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	position: relative;
+	
+	background: #f0b7a1; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#f0b7a1), color-stop(50%,#8c3310), color-stop(51%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.outros h2
+{
+	margin-bottom: 1%;
+	font-weight: 900;
+	font-size: 1.8em;
+}
+.outros li
+{
+	font-size: 1.5em;
+}
+.sistemasOP, .cursos
+{
+	padding: 3%;
+	width: 30%;
+}
+.sistemasOP
+{
+	background: #f2e6c9;
+}
+.cursos
+{
+	background: #fdf3dc;
+}
+
+/*-----Rodapé-----*/
+.footer
+{
+	width: 100%;
+	clear: both;
+	background:rgba(241,238,217,0.5);
+}
+.footer nav
+{
+	margin-left: 58%;
+	line-height: 2.5;
+}
+.footer nav li
+{
 	display: inline-block;
 	margin-left: 70px;
 	font-size: 1.6em;
 }
-a{
+
+.footer a
+{
 	text-decoration:none;
 	color: #382313;
-
-}
-
-/*--------CONTEUDO PERFIL--------*/
-
-
-footer{
-	width: 100%;
-	clear: both;
-	background-color: #58351A;
 }
