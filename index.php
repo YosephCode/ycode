@@ -94,8 +94,8 @@
 			<article class="cursos">
 				<h2>Cursos Complementares</h2>
 				<ul>
-				<li>Formação Front-End na CAELUM</li>				
-				<li>Computação Gráfica na Seven</li>
+				<li>Formação Front-End (CAELUM)</li>
+				<li>Computação Gráfica (Seven)</li>
 			</ul>
 			</article>
 		</section>
