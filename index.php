@@ -20,9 +20,7 @@
 				<div class="bandeirinha">		
 				</div>
 			
-				<p class="frase"><span class="espaco"></span>Aqui vai ficar um texto bem pequeno com 
-					dizeres meu, algo que chame atenção, 
-					marcante!<span class="espaco"></span>
+				<p class="frase"><span class="espaco"></span>I'm web development enthusiast and I work on the open web!<span class="espaco"></span>
 				</p>				
 			</section>
 				<hr>
@@ -78,9 +76,7 @@
 				</article>
 				<p class="frase2">
 					<span class="espaco"></span>
-					Aqui vai ficar um texto bem pequeno com 
-					dizeres meu, algo que chame atenção, 
-					marcante!<span class="espaco"></span>
+					In the world of web, knowledge always is welcome and i want learn more!<span class="espaco"></span>
 				</p>
 			</section>
 
@@ -91,7 +87,8 @@
 			<h2>Sistemas Operacionais</h2>
 			<ul>
 				<li>Linux - Ubuntu</li>				
-				<li>Windows Seven</li>
+				<li>Windows - Seven</li>
+				<li>Mac - OS X Mavericks</li>
 			</ul>
 			</article>
 			<article class="cursos">
