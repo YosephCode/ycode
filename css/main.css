@@ -285,19 +285,23 @@ p.frase2:after
 /*-----Rodapé-----*/
 .footer
 {
+	position: relative;
 	width: 100%;
 	clear: both;
 	background:rgba(241,238,217,0.5);
 }
 .footer nav
 {
-	margin-left: 58%;
+	padding-top: 1em;
+	margin:0 auto;
 	line-height: 2.5;
+	position: absolute;
+	right: 10%;
 }
 .footer nav li
 {
 	display: inline-block;
-	margin-left: 70px;
+	margin-left: 1.5em;
 	font-size: 1.6em;
 }
 
