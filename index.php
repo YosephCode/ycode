@@ -9,108 +9,92 @@
 	</head>
 	<body>
 
-		<header>
-			<input type="search" class="search" value="">
-			<img src="img/ycode.png" class="logo">
-		</header>
-
 		<section class="principal">
-			<section class="conteudo">
-				
-				<div class="bandeirinha">		
-				</div>
-			
-				<p class="frase"><span class="espaco"></span>I'm web development enthusiast and I work on the open web!<span class="espaco"></span>
-				</p>				
-			</section>
-				<hr>
-				<hr>
-				<hr>
-			<section class="habilidades">
-				<article class="front">
-					<h2>Front-End:</h2>
-						<ul>
+			<header>
+				<input type="search" class="search" value="">
+				<img src="img/ycode.png" class="logo">
+			</header>
+
+			<article class="conteudo">
+				<article class="eu">
+					<div class="imagem">
+						<img src="img/img.jpg" class="perfil-foto">
+						<p class="frase2">
+							<span class="espaco"></span>
+								I'm web development enthusiast and I work on the open web!
+							<span class="espaco"></span>
+						</p>
+					</div>
+				</article>
+				<article class="habilidades">
+					<div class="front">
+						<h2>Front-End:</h2>
+						<ul class="itens">
 							<li>HTML5</li> 
 							<li>CSS3</li>
 							<li>JAVASCRIPT</li>
 							<li>Responsive Web Design</li>
 						</ul>
-				</article>
+					</div>
+					<div class="back">
+						<h2>Back-End:</h2>
+						<ul class="itens">
+							<li>PHP</li> 
+							<li>SQL</li>
+							<li>JAVA</li>
+							<li>C</li>
+						</ul>
+					</div>
+					<div class="editorCodigo">
+						<h2>Editores de Códigos:</h2>
+						<ul class="itens">
+							<li>Sublime Text</li> 
+							<li>Netbeans</li>
+							<li>Eclipse</li>
+							<li>Notepad++</li>
+						</ul>
+					</div>
 
-				<article class="back">
-					<h2>Back-End:</h2>
-					<ul>
-						<li>PHP</li> 
-						<li>SQL</li>
-						<li>JAVA</li>
-						<li>C</li>
-					</ul>
-				</article>
-
-				<article class="editor">
-					<h2>Editores de Códigos:</h2>
-					<ul>
-						<li>Sublime Text</li> 
-						<li>Netbeans</li>
-						<li>Eclipse</li>
-						<li>Notepad++</li>
-					</ul>
-					<br><br><br>
-					<hr>
-					<br><br>
+					<div class="editorGrafico">
+						<h2>Editores de Gráficos:</h2>
+						<ul class="itens">
+							<li>Photoshop</li> 
+							<li>Fireworks</li>
+							<li>Illustrator</li>
+							<li>InDesign</li>
+						</ul>
+					</div>
+				</article>	
 				
-					<h2>Editores de Gráficos:</h2>
-					<ul>
-						<li>Photoshop</li> 
-						<li>Fireworks</li>
-						<li>Illustrator</li>
-						<li>InDesign</li>
-					</ul>
-				</article>			
-			</section>
-
-
-			<section>
-				<article class="imagem">
-					<img src="img/img.jpg" class="perfil-foto">
+				<article class="outros">
+					<div class="sistemasOP">
+						<h2>Sistemas Operacionais</h2>
+						<ul>
+							<li>Linux - Ubuntu</li>				
+							<li>Windows - Seven</li>
+							<li>Mac - OS X Mavericks</li>
+						</ul>
+					</div>
+					<div class="cursos">
+						<h2>Cursos Complementares</h2>
+						<ul>
+							<li>Web com Html5, Css3 e Javascript (CAELUM)</li>
+							<li>Front-end com Javascript e jQuery (CAELUM)</li>
+							<li>Computação Gráfica (Seven)</li>
+						</ul>
+					</div>
 				</article>
-				<p class="frase2">
-					<span class="espaco"></span>
-					In the world of web, knowledge always is welcome and i want learn more!<span class="espaco"></span>
-				</p>
-			</section>
-
-		</section>
-
-		<section class="outros">
-			<article class="sistemasOP">
-			<h2>Sistemas Operacionais</h2>
-			<ul>
-				<li>Linux - Ubuntu</li>				
-				<li>Windows - Seven</li>
-				<li>Mac - OS X Mavericks</li>
-			</ul>
 			</article>
-			<article class="cursos">
-				<h2>Cursos Complementares</h2>
-				<ul>
-				<li>Formação Front-End (CAELUM)</li>
-				<li>Computação Gráfica (Seven)</li>
-			</ul>
-			</article>
+			<footer class="footer">
+				<nav>
+					<ul>
+						<li><a href="#" class="icon-tumblr"><span class="mls"></span>Twitter</a></li>
+						<li><a href="#" class="icon-linkedin"><span class="mls"></span>Linkedin</a></li>
+						<li><a href="https://github.com/YosephCode" class="icon-github"><span class="mls"></span>GitHub</a></li>
+					</ul>
+				</nav>
+			</footer>
 		</section>
-
-
-		<footer class="footer">
-			<nav>
-				<ul>
-					<li><a href="#" class="icon-tumblr"><span class="mls"></span>Twitter</a></li>
-					<li><a href="#" class="icon-linkedin"><span class="mls"></span>Linkedin</a></li>
-					<li><a href="#" class="icon-github"><span class="mls"></span>GitHub</a></li>
-				</ul>
-			</nav>
-		</footer>
-
 
 	</body>
 </html>
