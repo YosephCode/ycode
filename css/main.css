@@ -49,6 +49,7 @@
 /*-----Corpo da Página-----*/
 body
 {
+	position: relative;
 	width: 100%;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -71,9 +72,10 @@ header
 	box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);
 	border-radius: 0px 3px 30px 30px;
 }
-section.principal
+section .principal
 {
 	position:relative;
+	width: 100%;
 }
 .logo 
 {
@@ -85,6 +87,7 @@ section.principal
 .search
 {
 	position: absolute;
+
 	right: 8%;
 	border-radius: 15px 2px 15px 2px;
 	margin-top: 7%;
@@ -92,7 +95,9 @@ section.principal
 	height: 40px;
 	box-shadow: 4px 2px rgba(88,53,26,0.4);	
 }
-
+.search:focus{
+	outline: 0;
+}
 
 /*--------CONTEUDO PERFIL--------*/
 
@@ -101,7 +106,6 @@ article.conteudo
 	position: relative;
 	width: 100%;
 }
-
 .espaco
 {
 	margin-left: 2%;
@@ -120,7 +124,15 @@ article.conteudo
 	padding: 0;
 	margin-left: 8%;
 	float: left;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
 	
+}
+.perfil-foto:hover
+{
+	border-radius: 50% 0;
 }
 .frase2
 {
@@ -128,7 +140,7 @@ article.conteudo
 	text-shadow: 2px -2px 8px rgba(150, 150, 150, 0.2); 
 	width: 35%;
 	font-size: 2em;
-	padding-top:7%; 
+	padding-top:7%;
 	margin-left: 15%;
 
 }
@@ -162,14 +174,17 @@ p.frase2:after
 	font-weight: bold;
 }
 .habilidades{
-	margin: 5% 10%;
 	width: 100%;
 	float: left;
 	clear: both;
+	margin-top: 3%;
 
 }
 .front, .back, .editorGrafico, .editorCodigo
 {
+
+	margin-top: 5%;
+	margin-left:8.5%;
 	background-color:rgba(247,237,191,0.3);
 	background-image: linear-gradient(to right, rgba(56,35,19,0.4) 1px, transparent 0.8px);
 	background-size: 15px 15px;
@@ -179,14 +194,18 @@ p.frase2:after
 	-moz-transition: padding 1.5s;
 	border-radius: 40px;
 	float: left;
-	text-shadow: 12px -2px 8px rgba(150, 150, 150, 0.1); 
-	margin: 1.5%;
+	text-shadow: 12px -2px 8px rgba(150, 150, 150, 0.1);
+	
+}
+.front:hover, .back:hover, .editorGrafico:hover, .editorCodigo:hover
+{ 
+	box-shadow: 2px 4px 3px 0px rgba(88,53,26, 0.6);
 }
 .editorGrafico, .front{
 	background-color: rgba(180,177,120,0.3);	
 	background: rgb(254,255,232); /* Old browsers */background: rgb(254,255,232); /* Old browsers */
-background: -moz-linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* FF3.6+ */
-background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(254,255,232,1)), color-stop(64%,rgba(214,219,191,1)), color-stop(81%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
+	background: -moz-linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(254,255,232,1)), color-stop(64%,rgba(214,219,191,1)), color-stop(81%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
 }
 .itens li{
 	font-size: 1.2em;
@@ -197,9 +216,11 @@ background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%
 	clear: both;
 	margin-top: 10%;
 	width: 100%;
+	outline: 0;
 
-background-image: linear-gradient(45deg,  rgba(241,238,217,1) 1px,rgba(171,189,115,0.5) 100%);
-background-size: 15px 15px 10px 2px; 
+background-image: -webkit-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc0 57%,#e4efc0 63%); /* Chrome10+,Safari5.1+ */
+
+
 
 }
 .outros li{
@@ -209,11 +230,21 @@ background-size: 15px 15px 10px 2px;
 
 .sistemasOP
 {
-	background:rgba(221,198,163,0.2);
+	background:#F1EED9;
 }
 .cursos
 {
-	background: #fdf3dc;
+	background: #fdf3dc;	
+}
+.cursos:hover, .sistemasOP:hover{
+	color:white;
+	background:rgba(0,0,0,0.8);
+	
+	
+	-webkit-transition:	all 2s linear;
+	-moz-transition: all 2s linear;
+	-o-transition: all 2s linear;
+	transition: all 2s linear;
 }
 .cursos, .sistemasOP{
 		float: left;
@@ -221,7 +252,11 @@ background-size: 15px 15px 10px 2px;
 		width: 40%;
 		margin: 0 3%;
 		padding: 3%;
-		/*box-shadow: 2px 5px 4px 0px rgba(88,53,26, 0.3);*/
+	
+	-webkit-transition:	all 2s linear;
+	-moz-transition: all 2s linear;
+	-o-transition: all 2s linear;
+	transition: all 2s linear;
 }
 
 /*-----Rodapé-----*/
