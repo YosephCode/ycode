@@ -26,6 +26,7 @@
 						</p>
 					</div>
 				</article>
+
 				<article class="habilidades">
 					<div class="front">
 						<h2>Front-End:</h2>
@@ -64,9 +65,9 @@
 							<li>InDesign</li>
 						</ul>
 					</div>
-				</article>	
-				
-				<article class="outros">
+				</article>
+
+				<article class="complementares">
 					<div class="sistemasOP">
 						<h2>Sistemas Operacionais</h2>
 						<ul>
@@ -78,22 +79,24 @@
 					<div class="cursos">
 						<h2>Cursos Complementares</h2>
 						<ul>
-							<li>Web com Html5, Css3 e Javascript (CAELUM)</li>
+							<li>Web com Html, Css e Javascript (CAELUM)</li>
 							<li>Front-end com Javascript e jQuery (CAELUM)</li>
 							<li>Computação Gráfica (Seven)</li>
 						</ul>
 					</div>
 				</article>
 			</article>
+			
 			<footer class="footer">
 				<nav>
 					<ul>
 						<li><a href="https://twitter.com/Yoseph_Santos" class="icon-tumblr"><span class="mls"></span>Twitter</a></li>
-						<li><a href="br.linkedin.com/pub/yoseph-santos/38/67b/b65/" class="icon-linkedin"><span class="mls"></span>Linkedin</a></li>
+						<li><a href="https://br.linkedin.com/pub/yoseph-santos/38/67b/b65/" class="icon-linkedin"><span class="mls"></span>Linkedin</a></li>
 						<li><a href="https://github.com/YosephCode" class="icon-github"><span class="mls"></span>GitHub</a></li>
 					</ul>
 				</nav>
 			</footer>
+
 		</section>
 
 	</body>
