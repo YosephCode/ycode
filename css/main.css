@@ -202,8 +202,8 @@ p.frase2:after
 	box-shadow: 2px 4px 3px 0px rgba(88,53,26, 0.6);
 }
 .editorGrafico, .front{
-	background-color: rgba(180,177,120,0.3);	
-	background: rgb(254,255,232); /* Old browsers */background: rgb(254,255,232); /* Old browsers */
+	background-color: rgba(180,177,120,0.8);	
+	background: rgb(254,255,232); /* Old browsers */
 	background: -moz-linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(254,255,232,1)), color-stop(64%,rgba(214,219,191,1)), color-stop(81%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
 }
@@ -218,8 +218,9 @@ p.frase2:after
 	width: 100%;
 	outline: 0;
 
-background-image: -webkit-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc0 57%,#e4efc0 63%); /* Chrome10+,Safari5.1+ */
-
+background-image: -webkit-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); /* Chrome10+,Safari5.1+ */
+background-image: -moz-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); /* Chrome10+,Safari5.1+ */
+background-image: -o-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc0 57%,#e4efc0 63%); /* Chrome10+,Safari5.1+ */
 
 
 }
@@ -230,7 +231,7 @@ background-image: -webkit-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc
 
 .sistemasOP
 {
-	background:#F1EED9;
+	background:#F7EDBF;
 }
 .cursos
 {
@@ -238,13 +239,13 @@ background-image: -webkit-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc
 }
 .cursos:hover, .sistemasOP:hover{
 	color:white;
-	background:rgba(0,0,0,0.9);
+	background:rgba(0,0,0,1);
 	
 	
-	-webkit-transition:	all 2s linear;
-	-moz-transition: all 2s linear;
-	-o-transition: all 2s linear;
-	transition: all 2s linear;
+	-webkit-transition:	all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
 }
 .cursos, .sistemasOP{
 		float: left;
@@ -253,10 +254,10 @@ background-image: -webkit-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc
 		margin: 0 3%;
 		padding: 3%;
 	
-	-webkit-transition:	all 2s linear;
-	-moz-transition: all 2s linear;
-	-o-transition: all 2s linear;
-	transition: all 2s linear;
+	-webkit-transition:	all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
 }
 
 /*-----Rodapé-----*/

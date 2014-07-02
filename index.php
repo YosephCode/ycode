@@ -88,8 +88,8 @@
 			<footer class="footer">
 				<nav>
 					<ul>
-						<li><a href="#" class="icon-tumblr"><span class="mls"></span>Twitter</a></li>
-						<li><a href="#" class="icon-linkedin"><span class="mls"></span>Linkedin</a></li>
+						<li><a href="https://twitter.com/Yoseph_Santos" class="icon-tumblr"><span class="mls"></span>Twitter</a></li>
+						<li><a href="br.linkedin.com/pub/yoseph-santos/38/67b/b65/" class="icon-linkedin"><span class="mls"></span>Linkedin</a></li>
 						<li><a href="https://github.com/YosephCode" class="icon-github"><span class="mls"></span>GitHub</a></li>
 					</ul>
 				</nav>
