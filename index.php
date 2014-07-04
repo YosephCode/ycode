@@ -31,18 +31,18 @@
 					<div class="front">
 						<h2>Front-End:</h2>
 						<ul class="itens">
-							<li>HTML5</li> 
-							<li>CSS3</li>
-							<li>JAVASCRIPT</li>
+							<li>Html5</li> 
+							<li>Css3</li>
+							<li>Javascript</li>
 							<li>Responsive Web Design</li>
 						</ul>
 					</div>
 					<div class="back">
 						<h2>Back-End:</h2>
 						<ul class="itens">
-							<li>PHP</li> 
-							<li>SQL</li>
-							<li>JAVA</li>
+							<li>Php</li> 
+							<li>Sql</li>
+							<li>Java</li>
 							<li>C</li>
 						</ul>
 					</div>

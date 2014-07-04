@@ -42,6 +42,17 @@
 .icon-linkedin:before {
 	content: "\e612";
 }
+
+.icon-github:hover {
+	color:black;
+}
+.icon-tumblr:hover {
+	color:#2db7e2;
+}
+.icon-linkedin:hover {
+	color:#006599;
+}
+
 .mls {
 	margin-left: .25em;
 }
@@ -224,6 +235,8 @@ p.frase2:after
 	background: rgb(254,255,232); /* Old browsers */
 	background: -moz-linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(254,255,232,1)), color-stop(64%,rgba(214,219,191,1)), color-stop(81%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
+	background: -ms-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='  rgba(254,255,232,1) 0%', endColorstr='rgba(214,219,191,1) 81%',GradientType=0 ); /* IE6-9 */
 }
 .itens li{
 	font-size: 1.2em;
@@ -245,6 +258,8 @@ p.frase2:after
 	background-image: -webkit-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); /* Chrome10+,Safari5.1+ */
 	background-image: -moz-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); /*Mozila */
 	background-image: -o-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc0 57%,#e4efc0 63%); /* Opera */
+	background: -ms-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #F1EED9', endColorstr='#2E221F',GradientType=0 ); /* IE6-9 */
 }
 .complementares li{
 	font-size: 1.3em;
@@ -315,4 +330,133 @@ p.frase2:after
 {
 	text-decoration:none;
 	color: #382313;
+}
+
+
+
+
+
+
+
+
+/*==========================
+--------MEDIA QUERYS--------
+============================*/
+@media (max-width: 70em){
+	.frase2{
+		font-size: 1.8em;
+		margin-left: 18%;
+		width: 40%;
+	}
+	.cursos, .sistemasOP{
+		padding: 2%;
+		width: 50%;
+
+	}
+}
+@media (max-width: 55em){
+	.front, .back, .editorGrafico, .editorCodigo
+	{
+		padding: 2.5%;
+	}	
+	.frase2{
+		font-size: 1.6em;
+		margin-left: 10%;
+		width: 40%;
+	}
+	.complementares li{
+		font-size: 1em;
+
+	}	
+	.habilidades{
+		margin-top: 5%;
+	}
+	.logo 
+	{
+		width: 35%;
+		margin: 2% auto;
+		margin-left: 4.5%;
+	}
+	.eu{
+		width: 100%;
+	}
+}
+
+@media (max-width: 48.9em){
+	.frase2{
+		font-size: 1.4em;
+		width: 50%;
+	}
+	h2{
+		font-size: 1.5em;
+		line-height: 1em;
+		font-weight:800;
+		margin-bottom: 5%;
+	}
+}
+
+@media (max-width: 45em){
+	.front, .back, .editorGrafico, .editorCodigo
+	{
+		display: block;
+		float: left;
+		clear: both;
+		width: 70%;
+		padding: 5%;
+	}
+	.frase2
+	{
+		width: 45%;
+		margin-left: 5%;
+	}	
+	.perfil-foto
+	{
+		margin-left: 12%;
+		width:30%;
+		border-radius: 20%;	
+	}
+	.cursos, .sistemasOP
+	{
+		margin-left: 0;
+		width: 100%;
+		border-top: 1px solid #382313;
+	}
+	h2
+	{
+		margin-bottom:2.5%; 
+	}
+	.search
+	{
+		position: absolute;
+		left: 15%;
+		margin-top: 15%;
+		width: 25%;
+		height: 35px;
+	}
+	header
+	{
+		height: 180px;
+	}
+
+	.logo 
+	{
+		width: 35%;
+		margin: 2% auto;
+		margin-left: 10%;
+	}
+}
+@media (max-width: 38em){
+	
+	.perfil-foto{
+		margin: 0 auto;
+		width: 50%;
+	    max-width: 100%;
+	    margin-left: 15%;
+	}
+	.frase2
+	{
+		font-size: 1.8em;
+		clear:both;
+		width: 90%;
+	}
 }
