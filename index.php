@@ -69,16 +69,16 @@
 
 				<article class="complementares">
 					<div class="sistemasOP">
-						<h2>Sistemas Operacionais</h2>
-						<ul>
+						<h2 class="h2complementares">Sistemas Operacionais</h2>
+						<ul class="lidaul">
 							<li>Linux - Ubuntu</li>				
 							<li>Windows - Seven</li>
 							<li>Mac - OS X Mavericks</li>
 						</ul>
 					</div>
 					<div class="cursos">
-						<h2>Cursos Complementares</h2>
-						<ul>
+						<h2 class="h2complementares">Cursos Complementares</h2>
+						<ul class="lidaul">
 							<li>Web com Html, Css e Javascript (CAELUM)</li>
 							<li>Front-end com Javascript e jQuery (CAELUM)</li>
 							<li>Computação Gráfica (Seven)</li>
