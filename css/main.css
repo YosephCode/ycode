@@ -470,14 +470,14 @@ p.frase2:after
 		margin: 0 auto;
 		width: 50%;
 	    max-width: 100%;
-	    margin-left: 10%;
+	    margin-left: 5%;
 	}
 	.frase2
 	{
 		padding-top: 5%;
 		font-size: 1.6em;
 		clear:both;
-		width: 90%;
+		width: 93%;
 	}
 	.footer nav li {
 		display: block;
