@@ -223,6 +223,8 @@ p.frase2:after
 	border-radius: 40px;
 	float: left;
 	text-shadow: 12px -2px 8px rgba(150, 150, 150, 0.1);
+
+
 	
 }
 .front:hover, .back:hover, .editorGrafico:hover, .editorCodigo:hover
@@ -232,7 +234,7 @@ p.frase2:after
 .editorGrafico, .front{
 
 	background-color: rgba(180,177,120,0.8);	
-	background: rgb(254,255,232); /* Old browsers */
+	background: linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* FF3.6+ */ /* Old browsers */
 	background: -moz-linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(254,255,232,1)), color-stop(64%,rgba(214,219,191,1)), color-stop(81%,rgba(214,219,191,1))); /* Chrome,Safari4+ */
 	background: -ms-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%); /* IE10+ */
