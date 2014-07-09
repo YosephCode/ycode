@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
-		<meta http-equiv="X-UA-COmpatible" content="IE-edge, chrome=1">
-		<title></title>
+		<title>YosephCode</title>
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
@@ -12,13 +11,13 @@
 		<section class="principal">
 			<header>
 				<input type="search" class="search" value="">
-				<img src="img/ycode.png" class="logo">
+				<img src="img/ycode.png" alt="minha-logo" class="logo">
 			</header>
 
 			<article class="conteudo">
 				<article class="eu">
 					<div class="imagem">
-						<img src="img/img.jpg" class="perfil-foto">
+						<img src="img/img.jpg" alt="minha-foto"class="perfil-foto">
 						<p class="frase2">
 							<span class="espaco"></span>
 								I'm web development enthusiast and I work on the open web!
