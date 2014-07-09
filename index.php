@@ -17,7 +17,7 @@
 			<article class="conteudo">
 				<article class="eu">
 					<div class="imagem">
-						<img src="img/img.jpg" alt="minha-foto"class="perfil-foto">
+						<img src="img/img.jpg" alt="minha-foto" class="perfil-foto">
 						<p class="frase2">
 							<span class="espaco"></span>
 								I'm web development enthusiast and I work on the open web!
