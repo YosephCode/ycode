@@ -361,11 +361,12 @@ p.frase2:after
 }
 /*1120 px*/
 @media (max-width: 70em){
-		.front, .back, .editorGrafico, .editorCodigo
+	.front, .back, .editorGrafico, .editorCodigo
 	{
-		width: 30%;
-		margin-left: 8%;
-	}	
+		width: 35%;
+		margin-left: 6%;
+		padding: 2.5%;
+	}		
 
 	.frase2{
 		font-size: 1.8em;
@@ -386,10 +387,7 @@ p.frase2:after
 		font-weight:800;
 		margin-bottom: 5%;
 	}
-	.front, .back, .editorGrafico, .editorCodigo
-	{
-		padding: 2.8%;
-	}	
+	
 	.frase2{
 		font-size: 1.6em;
 		margin-left: 10%;
