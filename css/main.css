@@ -260,7 +260,7 @@ p.frase2:after
 
 	background-image: -webkit-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); 
 	background-image: -moz-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); 
-	background-image: -o-linear-gradient(-45deg,  #abbd73 9%,#e4efc0 57%,#e4efc0 57%,#e4efc0 63%); 
+	background-image: -o-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%); 
 	background: -ms-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);  
 }
 .complementares li{
