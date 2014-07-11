@@ -10,7 +10,7 @@
 
 		<section class="principal">
 			<header>
-				<input type="search" class="search" value="">
+				<input type="text" class="search" value="">
 				<img src="img/ycode.png" alt="minha-logo" class="logo">
 			</header>
 
