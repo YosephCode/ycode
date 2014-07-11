@@ -379,8 +379,8 @@ p.frase2:after
 
 	}
 }
-/*880 px*/
-@media (max-width: 55em){
+/*920 px*/
+@media (max-width: 57em){
 	h2{
 		font-size: 1.5em;
 		line-height: 1em;
