@@ -10,7 +10,7 @@
 
 		<section class="principal">
 			<header>
-				<input type="text" class="search" value="">
+				<button class="button primary-button big-button">Cursos</button>
 				<img src="img/ycode.png" alt="minha logo" class="logo">
 			</header>
 
@@ -67,14 +67,6 @@
 				</article>
 
 				<article class="complementares">
-					<div class="sistemasOP">
-						<h2 class="h2complementares">Sistemas Operacionais</h2>
-						<ul class="lidaul">
-							<li>Linux - Ubuntu</li>				
-							<li>Windows - Seven</li>
-							<li>Mac - OS X Mavericks</li>
-						</ul>
-					</div>
 					<div class="cursos">
 						<h2 class="h2complementares">Cursos Complementares</h2>
 						<ul class="lidaul">
@@ -83,6 +75,15 @@
 							<li>Computação Gráfica (Seven)</li>
 						</ul>
 					</div>
+					<div class="sistemasOP">
+						<h2 class="h2complementares">Sistemas Operacionais</h2>
+						<ul class="lidaul">
+							<li>Linux - Ubuntu</li>				
+							<li>Windows - Seven</li>
+							<li>Mac - OS X Mavericks</li>
+						</ul>
+					</div>
+					
 				</article>
 			</article>
 			
@@ -97,6 +98,6 @@
 			</footer>
 
 		</section>
-
+		<script src="js/button.js"></script>
 	</body>
 </html>
