@@ -14,7 +14,7 @@
 --------CORPO DA PÁGINA--------
 ===============================*/
 body{position: relative;width: 100%;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight: 400;}
-h2{font-family: 'icomoon';margin-bottom: 2.5%;font-weight: 900;font-size: 2em;}
+h2{margin-bottom: 2.5%;font-weight: 900;font-size: 1.7em;}
 section .principal{position:relative;width: 100%;}
 /*===========================
 ----------CABEÇALHO----------
@@ -23,7 +23,7 @@ header{width:100%;background-color:rgba(241,238,217,0.5);background-image: linea
 .logo{width: 28%;margin: 2% auto;margin-left: 4.5%;}.header{
 background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right,  #2E221F 1%,#58351A 1%,#e4efc0 7%,#F1EED9 83%);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;
 }
-.button{background-color: rgba(108,198,68,0.9);color: white;font-size: 1em;font-weight: bold;padding: 0.5em 1em;text-decoration: none;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);position: relative;float: right;border-radius: 15px 2px 15px 2px;margin-top: 7%;margin-right:5%;width: 20%;box-shadow: 4px 2px rgba(88,53,26,0.4);}
+.button{cursor:pointer;background-color: rgba(108,198,68,0.9);color: white;font-size: 1em;font-weight: bold;padding: 0.5em 1em;text-decoration: none;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);position: relative;float: right;border-radius: 15px 2px 15px 2px;margin-top: 7%;margin-right:5%;width: 20%;box-shadow: 4px 2px rgba(88,53,26,0.4);}
 .button:focus{outline: 0;}.button:active{outline: 0;}
 .invisivel{display: none;}
 /*=============================
