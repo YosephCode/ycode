@@ -10,15 +10,11 @@
 .icon-tumblr:hover {color:#2db7e2;}
 .icon-linkedin:hover {color:#006599;}
 .mls {margin-left: .25em;}
-/*=============================
---------CORPO DA PÁGINA--------
-===============================*/
+/*CORPO DA PÁGINA*/
 body{position: relative;width: 100%;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight: 400;}
 h2{margin-bottom: 2.5%;font-weight: 900;font-size: 1.7em;}
 section .principal{position:relative;width: 100%;}
-/*===========================
-----------CABEÇALHO----------
-=============================*/
+/*CABEÇALHO*/
 header{width:100%;background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right, rgba(88,53,26,0.4) 1px, transparent 0.5px);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;}
 .logo{width: 28%;margin: 2% auto;margin-left: 4.5%;}.header{
 background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right,  #2E221F 1%,#58351A 1%,#e4efc0 7%,#F1EED9 83%);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;
@@ -26,9 +22,7 @@ background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to righ
 .button{cursor:pointer;background-color: rgba(108,198,68,0.9);color: white;font-size: 1em;font-weight: bold;padding: 0.5em 1em;text-decoration: none;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);position: relative;float: right;border-radius: 15px 2px 15px 2px;margin-top: 7%;margin-right:5%;width: 20%;box-shadow: 4px 2px rgba(88,53,26,0.4);}
 .button:focus{outline: 0;}.button:active{outline: 0;}
 .invisivel{display: none;}
-/*=============================
---------CONTEUDO PERFIL--------
-===============================*/
+/*CONTEUDO PERFIL*/
 article.conteudo
 {position: relative;width: 100%;}
 .espaco{margin-left: 2%;}
@@ -41,18 +35,14 @@ margin-left: 8%;float: left;-webkit-transition: all .5s ease;-moz-transition: al
 .frase2:hover{-webkit-transform: scale(1.05,1.05);-moz-transform: scale(1.05,1.05);-ms-transform: scale(1.05,1.05);-o-transform: scale(1.05,1.05);transform: scale(1.05,1.05);opacity: .9;}
 p.frase2:before{content: open-quote;font-size: 2em;font-weight:bold;}
 p.frase2:after{content: close-quote;font-size: 1.4em;font-weight: bold;}
-/*==========================
---------HABILIDADES--------
-============================*/
+/*HABILIDADES*/
 .habilidades{width: 100%;float: left;clear: both;margin-top: 3%;}
 .front, .back, .editorGrafico, .editorCodigo{margin-top: 5%;margin-left:5%;background-color:rgba(247,237,191,0.3);background-image: linear-gradient(to right, rgba(56,35,19,0.2) 1px, transparent 0.8px);background-size: 15px 15px;padding: 3.5%;width: 35%;-webkit-transition: padding 1.5s;-moz-transition: padding 1.5s;border-radius: 35px;float: left;text-shadow: 12px -2px 8px rgba(150, 150, 150, 0.1);}
 .front:hover, .back:hover, .editorGrafico:hover, .editorCodigo:hover{box-shadow: 2px 4px 3px 0px rgba(88,53,26, 0.6);}
 .editorGrafico, .front{background-color: rgba(180,177,120,0.8);background: linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%);background: -moz-linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%);
 background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(254,255,232,1)), color-stop(64%,rgba(214,219,191,1)), color-stop(81%,rgba(214,219,191,1)));background: -ms-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%);}
 .itens li{font-size: 1.2em;}
-/*==========================
--------COMPLEMENTARES-------
-============================*/
+/*COMPLEMENTARES*/
 .complementares{float: left;clear: both;margin-top: 10%;width: 100%;outline: 0;background-image: -webkit-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);background-image: -moz-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);background-image: -o-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);background: -ms-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);}
 .complementares li{font-size: 1.3em;line-height: 1.2;}
 .cursos, .sistemasOP{
@@ -60,17 +50,13 @@ float: left;clear: both;width: 40%;margin: 0 3%;padding: 3%;-webkit-transition:	
 .sistemasOP{background:#F7EDBF;}
 .cursos{background: #fdf3dc;}
 .cursos:hover, .sistemasOP:hover{color:white;background:rgba(0,0,0,1);-webkit-transition:all 1s linear;-moz-transition: all 1s linear;-o-transition: all 1s linear;transition: all 1s linear;}
-/*==========================
------------RODAPÉ-----------
-============================*/
+/*RODAPÉ*/
 .footer{position: relative;width: 100%;clear: both;background:rgba(241,238,217,0.5);}
 .footer nav{padding-top: 1em;margin:0 auto;line-height: 2.5;position: absolute;	right: 10%;}
 .footer nav li{display: inline-block;margin-left: 1.5em;font-size: 1.6em;}
 .footer a{text-decoration:none;color: #382313;}
 .w3c{float:right;margin-top: 3%;}
-/*==========================
---------MEDIA QUERYS--------
-============================*/
+/*MEDIA QUERYS*/
 /*1600 px*/
 @media (min-width: 95em){.principal{margin: 0 10em;}.complementares{border-radius: 30px 30px 0 0;}}
 /*1120 px*/
