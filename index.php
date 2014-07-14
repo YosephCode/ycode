@@ -10,7 +10,7 @@
 
 		<section class="principal">
 			<header>
-				<button class="button primary-button big-button">Cursos</button>
+				<button class="button primary-button big-button">Contato</button>
 				<img src="img/ycode.png" alt="minha logo" class="logo">
 			</header>
 
