@@ -10,7 +10,7 @@
 
 		<section class="principal">
 			<header>
-				<button class="button primary-button big-button">Contato</button>
+				<button class="button"></button>
 				<img src="img/ycode.png" alt="minha logo" class="logo">
 			</header>
 
@@ -111,6 +111,7 @@
 				</nav>
 			</footer>
 		</section>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="js/button.js"></script>
 	</body>
 </html>

@@ -1,2 +1,2 @@
-var esconde = "Contato";var mostra = "Portifolio";var some = document.querySelector(".button");var hab = document.querySelector(".habilidades ");var ft = document.querySelector(".imagem");
-var hd = some.parentNode;some.addEventListener("click", function(event){hd.classList.toggle("header");ft.classList.toggle("invisivel");hab.classList.toggle("invisivel");if(hab.classList.contains("invisivel")){this.textContent = mostra;}else{this.textContent = esconde;}});
+var hab = $(".habilidades, .imagem");var hd = $("header");var bt= $(".button").text("Contato");bt.click(function(){hab.slideToggle(1000, function(){if(hab.css("display") == "none"){bt.text("Portifólio");hd.addClass("header");}else{bt.text("Contato");hd.removeClass("header");}});});
+
