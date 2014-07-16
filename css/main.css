@@ -71,7 +71,7 @@ textarea{padding-top: 2%;}
 /*1120 px*/
 @media (max-width: 70em){.front, .back, .editorGrafico, .editorCodigo{width: 30%;margin-left: 8%;}.frase2{font-size: 1.8em;margin-left: 18%;width: 40%;	}	.cursos, .sistemasOP{padding: 2%;width: 50%;}}
 /*880 px*/
-@media (max-width: 57em){h2{font-size: 1.5em;line-height: 1em;font-weight:800;margin-bottom: 5%;}.front, .back, .editorGrafico, .editorCodigo{width: 38%;	padding: 2.6%;margin-left: 5%;}.frase2{font-size: 1.6em;margin-left: 10%;width: 40%;}.complementares li{font-size: 1em;}.habilidades{margin-top: 5%;}.logo{width: 35%;margin: 2% auto;margin-left: 4.5%;}.eu{width: 100%;}}
+@media (max-width: 57em){h2{font-size: 1.5em;line-height: 1em;font-weight:800;margin-bottom: 5%;}.front, .back, .editorGrafico, .editorCodigo{width: 38%;	padding: 2.6%;margin-left: 5%;}.frase2{font-size: 1.5em;margin-left: 10%;width: 40%;}.complementares li{font-size: 1em;}.habilidades{margin-top: 5%;}.logo{width: 35%;margin: 2% auto;margin-left: 4.5%;}.eu{width: 100%;}}
 /*782 px*/
 @media (max-width: 48.9em){.frase2{font-size: 1.4em;width: 50%;}.front, .back, .editorGrafico, .editorCodigo{width: 42%;margin-left: 1.8%;}}
 /*720px*/
