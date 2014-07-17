@@ -84,7 +84,7 @@ textarea{padding-top: 2%;resize:none;}
 /*480 px*/
 @media (max-width: 30em){.form{margin-left: 0;width: 90%;padding: 0 1em;}form{ padding: 0;width: 100%;}.perfil-foto{width: 75%;}.logo{width: 60%;margin-left: 6.5%;}.button{margin-top: 26%;left: 12.5%;}h1{padding-left: 4%;}.frase2{font-size: 1.4em;}}
 /* 432 px*/
-@media (max-width: 27em){h1{width:50%;font-size: 5em;padding-left: 2.3%;}.button{width: 65%;margin-top: 28%;}.logo{width: 80%;margin-left: 2%;}.cursos, .sistemasOP{margin: 0;padding: 0;max-width:100%;width: 100%;}.lidaul{padding: 5%;}.h2complementares{
+@media (max-width: 27em){h1{width:50%;font-size: 5em;padding-left: 2.3%;}.button{width: 65%;margin-top: 28%;}.logo{width: 80%;margin-left: 2%;}.cursos, .sistemasOP{margin: 0;padding: 0;max-width:100%;width: 100%;}.lidaul{padding: 5%;padding-top: 2%;}.h2complementares{
 margin-left: 3.5%;padding-top: 2%;}}
 /*352px*/
 @media(max-width: 22em){h1{font-size: 4.5em}.form{padding: 0;width: 90%;padding-left: 2.5%;}input[type="email"],textarea,input[type="text"]{width: 100%;}.button{margin-top: 30%;width: 65%;}}
