@@ -1,3 +1,103 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
 /*-----RESET-----*/
 * {margin:0;padding:0;list-style:none;vertical-align:baseline;}
 /*-----Ícones-----*/
@@ -12,15 +112,16 @@
 .mls {margin-left: .25em;}
 /*CORPO DA PÁGINA*/
 body{position: relative;width: 100%;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight: 400;}
-h1{padding: 4% 1%;margin-left: 11%;font-size: 6em;width: 250px;font-weight:400; }
+.eu{margin-left: 3%;}
+h1{padding: 2% 1%;margin-left: 11%;font-size: 6em;width: 250px;font-weight:400; }
 h2{margin-bottom: 2.5%;font-weight: 900;font-size: 1.7em;}
 section .principal{position:relative;width: 100%;}
-header{width:100%;background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right, rgba(88,53,26,0.4) 1.5px, transparent 0.5px);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;}
+header{width:100%;background-color:#F1EED9;background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right, rgba(88,53,26,0.4) 1.5px, transparent 0.5px);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;}
 .logo{width: 28%;margin: 2% auto;margin-left: 4.5%;}.header{
 background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right,  #2E221F 1%,#58351A 1%,#e4efc0 7%,#F1EED9 83%);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;
 }
-.button{cursor:pointer;background-color: rgba(108,198,68,0.9);color: white;font-size: 1em;font-weight: bold;padding: 0.5em 1em;text-decoration: none;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);position: relative;float: right;border-radius: 15px 2px 15px 2px;margin-top: 7%;margin-right:8%;width: 20%;box-shadow: 4px 2px rgba(88,53,26,0.4);}
-.button:focus{outline: 0;}.button:active{outline: 0;}
+.butt{cursor:pointer;background-color: rgba(108,198,68,0.9);color: white;font-size: 1em;font-weight: bold;padding: 0.5em 1em;text-decoration: none;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);position: relative;float: right;border-radius: 15px 2px 15px 2px;margin-top: 6%;margin-right:8%;width: 20%;box-shadow: 4px 2px rgba(88,53,26,0.4);}
+.butt:focus{outline: 0;}.butt:active{outline: 0;}
 /*CONTEUDO PERFIL*/
 article.conteudo
 {position: relative;width: 100%;}
@@ -29,7 +130,7 @@ article.conteudo
 .perfil-foto{position: relative;max-width:25%;border-radius: 0 50%;padding: 0;
 margin-left: 8%;float: left;-webkit-transition: all .5s ease;-moz-transition: all .5s ease;-o-transition: all .5s ease;transition: all .5s ease;}
 .perfil-foto:hover{border-radius: 50% 0;}
-.frase2{float: left;text-shadow: 2px -2px 8px rgba(150, 150, 150, 0.2);width: 35%;font-size: 2em;padding-top:7%;margin-left: 15%;}
+.frase2{float: left;text-shadow: 2px -2px 8px rgba(150, 150, 150, 0.2);width: 40%;font-size: 2em;padding-top:7%;margin-left: 15%;}
 .frase2{-webkit-transition: all .5s ease;-moz-transition: all .5s ease;-o-transition: all .5s ease;transition: all .5s ease;}
 .frase2:hover{-webkit-transform: scale(1.05,1.05);-moz-transform: scale(1.05,1.05);-ms-transform: scale(1.05,1.05);-o-transform: scale(1.05,1.05);transform: scale(1.05,1.05);opacity: .9;}
 p.frase2:before{content: open-quote;font-size: 2em;font-weight:bold;}
@@ -41,11 +142,10 @@ p.frase2:after{content: close-quote;font-size: 1.4em;font-weight: bold;}
 .editorGrafico, .front{background-color: rgba(180,177,120,0.8);background: linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%);background: -moz-linear-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%);
 background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(254,255,232,1)), color-stop(64%,rgba(214,219,191,1)), color-stop(81%,rgba(214,219,191,1)));background: -ms-gradient(45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 64%, rgba(214,219,191,1) 81%);}
 .itens li{font-size: 1.2em;}
-/*COMPLEMENTARES*/
 .complementares{float: left;clear: both;margin-top: 10%;width: 100%;outline: 0;background-image: -webkit-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);background-image: -moz-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);background-image: -o-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);background: -ms-linear-gradient(-45deg,  #2E221F 1%,#58351A 17%,#e4efc0 57%,#F1EED9 63%);}
 .complementares li{font-size: 1.3em;line-height: 1.2;}
 .cursos, .sistemasOP{
-float: left;clear: both;width: 40%;margin: 0 3%;padding: 3%;-webkit-transition:	all 1s linear;-moz-transition: all 1s linear;-o-transition: all 1s linear;transition: all 1s linear;}
+float: left;clear: both;width: 40%;margin: 0 3%;padding: 3%;-webkit-transition: all 1s linear;-moz-transition: all 1s linear;-o-transition: all 1s linear;transition: all 1s linear;}
 .sistemasOP{background:#F7EDBF;}
 .cursos{background: #fdf3dc;}
 .cursos:hover, .sistemasOP:hover{color:white;background:rgba(0,0,0,1);-webkit-transition:all 1s linear;-moz-transition: all 1s linear;-o-transition: all 1s linear;transition: all 1s linear;}
@@ -54,38 +154,250 @@ form{padding: 5%;}
 label,.label{color: rgba(46,34,31,0.95);width: 100%;display: block;text-shadow: 1px 1px 1px #ccc;font-weight: 700;line-height: 40px;font-size: 1.4em;}
 .label{font-size: 1.8em;font-weight: bold;color: rgba(46,34,31,1);}
 input[type="submit"]{float: left;
- 	margin-top: 3%;font-weight: bold;line-height: 1;padding: 8px 12px;cursor:pointer;color: #fff;text-align: center;text-shadow: 0 -1px 15px #64799e;background: #4a7e9e;border: 1px solid #5c6f91;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;-moz-box-shadow: inset 0 1px 0 0 #aec3e5;-webkit-box-shadow: inset 0 1px 0 0 #aec3e5;box-shadow: inset 0 1px 0 0 #aec3e5;}
+    margin-top: 3%;font-weight: bold;line-height: 1;padding: 8px 12px;cursor:pointer;color: #fff;text-align: center;text-shadow: 0 -1px 15px #64799e;background: #4a7e9e;border: 1px solid #5c6f91;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;-moz-box-shadow: inset 0 1px 0 0 #aec3e5;-webkit-box-shadow: inset 0 1px 0 0 #aec3e5;box-shadow: inset 0 1px 0 0 #aec3e5;}
  input[type="email"],textarea,input[type="text"]{font-size: 1em;display: block;border: 1.5px solid rgba(106,77,48,0.9);height: 30px;width: 95%;-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5); 
-	-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);-moz-border-radius: 0 10px;-ms-border-radius: 0 10px;-o-border-radius: 0 10px;-webkit-border-radius:0  10px;border-radius:0 10px  10px;padding-left:0.8%;}
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);-moz-border-radius: 0 10px;-ms-border-radius: 0 10px;-o-border-radius: 0 10px;-webkit-border-radius:0  10px;border-radius:0 10px  10px;padding-left:0.8%;}
 input[type="email"]:focus, textarea:focus,input[type="text"]:focus{outline: 0;}
 textarea{padding-top: 2%;resize:none;}
 /*RODAPÉ*/
 .footer{position: relative;width: 100%;clear: both;background:rgba(241,238,217,0.5);}
-.footer nav{padding-top: 1em;margin:0 auto;line-height: 2.5;position: absolute;	right: 10%;}
+.footer nav{padding-top: 0;margin:0 auto;line-height: 2.5;position: absolute;   right: 10%;}
 .footer nav li{display: inline-block;margin-left: 1.5em;font-size: 1.6em;}
 .footer a{text-decoration:none;color: #382313;}
 .w3c{float:right;margin-top: 3%;}
+
+/*No JS*/
+.no-js .butt{
+    display: none;
+}
+
+
+
 /*MEDIA QUERYS*/
 /*1600 px*/
-@media (min-width: 95em){.principal{margin: 0 10em;}.complementares{border-radius: 30px 30px 0 0;}}
+@media (min-width: 95em){.principal{margin: 0 15em;}.complementares{border-radius: 30px 30px 0 0;}}
 /*1120 px*/
-@media (max-width: 70em){.front, .back, .editorGrafico, .editorCodigo{width: 30%;margin-left: 8%;}.frase2{font-size: 1.8em;margin-left: 18%;width: 40%;	}	.cursos, .sistemasOP{padding: 2%;width: 50%;}.button{margin-top: 7.2%;}}
+@media (max-width: 72em){.front, .back, .editorGrafico, .editorCodigo{width: 30%;margin-left: 8%;}.frase2{font-size: 1.8em;margin-left: 18%; }   .cursos, .sistemasOP{padding: 2%;width: 50%;}.butt{margin-top:7% ;}}
 /*880 px*/
-@media (max-width: 57em){h1{font-size:5.5em;padding-right:0; }h2{font-size: 1.5em;line-height: 1em;font-weight:800;margin-bottom: 5%;}.front, .back, .editorGrafico, .editorCodigo{width: 38%;	padding: 2.6%;margin-left: 5%;}.frase2{font-size: 1.5em;margin-left: 10%;width: 40%;}.complementares li{font-size: 1em;}.habilidades{margin-top: 5%;}.logo{width: 35%;margin: 2% auto;margin-left: 4.5%;}.eu{width: 100%;}}
+@media (max-width: 57em){h1{font-size:5.5em;padding-right:0; }h2{font-size: 1.5em;line-height: 1em;font-weight:800;margin-bottom: 5%;}.front, .back, .editorGrafico, .editorCodigo{width: 38%;  padding: 2.6%;margin-left: 5%;}.frase2{font-size: 1.5em;margin-left: 10%;width: 40%;}.complementares li{font-size: 1em;}.habilidades{margin-top: 5%;}.logo{width: 35%;margin: 2% auto;margin-left: 4.5%;}}
 /*782 px*/
 @media (max-width: 48.9em){.frase2{font-size: 1.4em;width: 50%;}.front, .back, .editorGrafico, .editorCodigo{width: 42%;margin-left: 1.8%;}}
 /*720px*/
-@media (max-width: 45em){.form{box-shadow: none;margin-left: 10%;width: 75%}header{height: 150px;}.front, .back, .editorGrafico, .editorCodigo{display: block;float: left;clear: both;width: 70%;padding: 5%;margin-left: 8%;}.frase2{width: 45%;margin-left: 5%;}.perfil-foto{margin-left: 12%;width:30%;border-radius: 20%;}.cursos, .sistemasOP
-{margin-left: 0;padding-bottom: 2em;max-width: 90%;width: 90%;}.footer nav li{margin-left: 1em;}h1{font-size: 4em;}h2{margin-bottom:2.5%;}.button{position: absolute;left: 13.5%;margin-top: 15%;width: 24%;}.logo{width: 35%;margin: 2% auto;margin-left: 10%;}}
+@media (max-width: 45em){.form{box-shadow: none;margin-left: 10%;width: 75%}header{height: 160px;}.front, .back, .editorGrafico, .editorCodigo{display: block;float: left;clear: both;width: 70%;padding: 5%;margin-left: 8%;}.frase2{width: 45%;margin-left: 5%;padding-top: 2%;}.perfil-foto{margin-left: 12%;width:30%;border-radius: 20%;}.cursos, .sistemasOP
+{margin-left: 0;padding-bottom: 2em;max-width: 90%;width: 90%;}.footer nav li{margin-left: 1em;}h1{font-size: 4em;}h2{margin-bottom:2.5%;}.butt{position: absolute;left: 13.5%;margin-top: 14%;width: 24%;}.logo{width: 35%;margin: 2% auto;margin-left: 10%;}}
 /*608px*/
-@media (max-width: 38em){h1{padding-left: 3%;font-size: 5.5em; }.label{font-size: 1.4em;}label{font-size: 1em;}.perfil-foto{margin: 0 auto;width: 50%;max-width: 100%;margin-left: 5%;}.frase2{padding-top: 5%;font-size: 1.6em;clear:both;width: 93%;}.footer nav li {display: block;	border-top: 1px solid black;}.footer nav{margin-top:2em;left:1.5em;}
-.button{position: absolute;left: 10%;margin-top: 22.5%;width: 300px;}
-.logo {width: 50%;margin: 2% auto;margin-left: 10%;}header{height: 180px;}}
+@media (max-width: 38em){h1{padding-left: 3%;font-size: 5.5em; }.label{font-size: 1.4em;}label{font-size: 1em;}.perfil-foto{margin: 0 auto;width: 50%;max-width: 100%;margin-left: 5%;}.frase2{padding-top: 5%;font-size: 1.6em;clear:both;width: 85%;}.footer nav li {display: block;  border-top: 1px solid black;}.footer nav{margin-top:2em;left:1.5em;}
+.butt{position: absolute;left: 10%;margin-top: 22%;width: 300px;}
+.logo {width: 50%;margin: 2% auto;margin-left: 10%;}header{height: 185px;}}
 /*480 px*/
-@media (max-width: 30em){.form{margin-left: 0;width: 90%;padding: 0 1em;}form{ padding: 0;width: 100%;}.perfil-foto{width: 75%;}.logo{width: 60%;margin-left: 6.5%;}.button{margin-top: 26%;left: 12.5%;}h1{padding-left: 4%;}.frase2{font-size: 1.4em;}}
+@media (max-width: 30em){.form{margin-left: 0;width: 90%;padding: 0 1em;}form{ padding: 0;width: 100%;}.perfil-foto{width: 75%;}.logo{width: 60%;margin-left: 6.5%;}.butt{margin-top: 25%;left: 12.5%;}h1{padding-left: 4%;}.frase2{font-size: 1.4em;}}
 /* 432 px*/
-@media (max-width: 27em){h1{width:50%;font-size: 5em;padding-left: 2.3%;}.button{width: 65%;margin-top: 28%;}.logo{width: 80%;margin-left: 2%;}.cursos, .sistemasOP{margin: 0;padding: 0;max-width:100%;width: 100%;}.lidaul{padding: 5%;padding-top: 2%;}.h2complementares{
+@media (max-width: 27em){h1{width:50%;font-size: 5em;padding-left: 2.3%;}.butt{width: 65%;margin-top: 28%;}.logo{width: 80%;margin-left: 2%;}.cursos, .sistemasOP{margin: 0;padding: 0;max-width:100%;width: 100%;}.lidaul{padding: 5%;padding-top: 2%;}.h2complementares{
 margin-left: 3.5%;padding-top: 2%;}}
 /*352px*/
-@media(max-width: 22em){h1{font-size: 4.5em}.form{padding: 0;width: 90%;padding-left: 2.5%;}input[type="email"],textarea,input[type="text"]{width: 100%;}.button{margin-top: 30%;width: 65%;}}
-@media(max-width: 20em){.button{width:70.5%;left: 16%;}.frase2{font-size:1.2em;width: 98%;margin: 0; padding-left: 0.6em;}header{height: 130px;}.perfil-foto{margin-left:10%;}}
+@media(max-width: 22em){h1{font-size: 4.5em;}.form{padding: 0;width: 90%;padding-left: 2.5%;}input[type="email"],textarea,input[type="text"]{width: 100%;}.butt{margin-top: 30%;width: 65%;}}
+@media(max-width: 20em){.butt{margin-top:35%;width:70.5%;left: 16%;}.frase2{font-size:1.2em;width: 90%;margin: 0; padding-left: 0.6em;}header{height: 160px;}.perfil-foto{margin-left:10%;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
