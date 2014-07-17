@@ -7,11 +7,10 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-
 		<section class="principal">
 			<header>
-				<button class="button"></button>
-				<img src="img/ycode.png" alt="minha logo" class="logo">
+				<button class="button"></button>	
+				<h1>Ycode</h1>
 			</header>
 
 			<article class="conteudo">
@@ -46,7 +45,7 @@
 						</ul>
 					</div>
 					<div class="editorCodigo">
-						<h2>Editores de Códigos:</h2>
+						<h2>Editors Codes:</h2>
 						<ul class="itens">
 							<li>Sublime Text</li> 
 							<li>Netbeans</li>
@@ -56,7 +55,7 @@
 					</div>
 
 					<div class="editorGrafico">
-						<h2>Editores de Gráficos:</h2>
+						<h2>Graphics editors:</h2>
 						<ul class="itens">
 							<li>Photoshop</li> 
 							<li>Fireworks</li>
@@ -68,12 +67,12 @@
 
 				<article class="form">
 					<form>
-						<h2 class="label">Fala comigo</h2>
-							<label>Nome</label>
+						<h2 class="label">Talk with me!</h2>
+							<label>Name</label>
 							<input type="text" class="nome" required>
 							<label>Email</label>
 							<input type="email" class="email" required>
-							<label>Mensagem</label>
+							<label>Message</label>
 							<textarea class="textearea" required></textarea>
 							
 							<input type="submit" name="Submit"  class="sbmt" value="Submit" />
@@ -82,15 +81,15 @@
 				
 				<article class="complementares">
 					<div class="cursos">
-						<h2 class="h2complementares">Cursos Complementares</h2>
+						<h2 class="h2complementares">Additional Courses</h2>
 						<ul class="lidaul">
-							<li>Web com Html, Css e Javascript (CAELUM)</li>
-							<li>Front-end com Javascript e jQuery (CAELUM)</li>
-							<li>Computação Gráfica (Seven)</li>
+							<li>Web with Html, Css and Javascript (CAELUM)</li>
+							<li>Front-end with Javascript and jQuery (CAELUM)</li>
+							<li>Computer Graphics (Seven)</li>
 						</ul>
 					</div>
 					<div class="sistemasOP">
-						<h2 class="h2complementares">Sistemas Operacionais</h2>
+						<h2 class="h2complementares">Operating Systems</h2>
 						<ul class="lidaul">
 							<li>Linux - Ubuntu</li>				
 							<li>Windows - Seven</li>

@@ -12,14 +12,14 @@
 .mls {margin-left: .25em;}
 /*CORPO DA PÁGINA*/
 body{position: relative;width: 100%;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight: 400;}
+h1{padding: 4% 2%;margin-left: 8%;font-size: 5.5em;width: 250px;text-transform: uppercase;}
 h2{margin-bottom: 2.5%;font-weight: 900;font-size: 1.7em;}
 section .principal{position:relative;width: 100%;}
-/*CABEÇALHO*/
 header{width:100%;background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right, rgba(88,53,26,0.4) 1.5px, transparent 0.5px);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;}
 .logo{width: 28%;margin: 2% auto;margin-left: 4.5%;}.header{
 background-color:rgba(241,238,217,0.5);background-image: linear-gradient(to right,  #2E221F 1%,#58351A 1%,#e4efc0 7%,#F1EED9 83%);background-size: 15px 15px;box-shadow: 7px 7px 5px 0px rgba(88,53,26, 0.3);border-radius: 0px 3px 30px 30px;
 }
-.button{cursor:pointer;background-color: rgba(108,198,68,0.9);color: white;font-size: 1em;font-weight: bold;padding: 0.5em 1em;text-decoration: none;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);position: relative;float: right;border-radius: 15px 2px 15px 2px;margin-top: 7%;margin-right:5%;width: 20%;box-shadow: 4px 2px rgba(88,53,26,0.4);}
+.button{cursor:pointer;background-color: rgba(108,198,68,0.9);color: white;font-size: 1em;font-weight: bold;padding: 0.5em 1em;text-decoration: none;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);position: relative;float: right;border-radius: 15px 2px 15px 2px;margin-top: 6.6%;margin-right:8%;width: 20%;box-shadow: 4px 2px rgba(88,53,26,0.4);}
 .button:focus{outline: 0;}.button:active{outline: 0;}
 /*CONTEUDO PERFIL*/
 article.conteudo
@@ -69,23 +69,23 @@ textarea{padding-top: 2%;resize:none;}
 /*1600 px*/
 @media (min-width: 95em){.principal{margin: 0 10em;}.complementares{border-radius: 30px 30px 0 0;}}
 /*1120 px*/
-@media (max-width: 70em){.front, .back, .editorGrafico, .editorCodigo{width: 30%;margin-left: 8%;}.frase2{font-size: 1.8em;margin-left: 18%;width: 40%;	}	.cursos, .sistemasOP{padding: 2%;width: 50%;}}
+@media (max-width: 70em){.front, .back, .editorGrafico, .editorCodigo{width: 30%;margin-left: 8%;}.frase2{font-size: 1.8em;margin-left: 18%;width: 40%;	}	.cursos, .sistemasOP{padding: 2%;width: 50%;}.button{margin-top: 7.2%;}}
 /*880 px*/
-@media (max-width: 57em){h2{font-size: 1.5em;line-height: 1em;font-weight:800;margin-bottom: 5%;}.front, .back, .editorGrafico, .editorCodigo{width: 38%;	padding: 2.6%;margin-left: 5%;}.frase2{font-size: 1.5em;margin-left: 10%;width: 40%;}.complementares li{font-size: 1em;}.habilidades{margin-top: 5%;}.logo{width: 35%;margin: 2% auto;margin-left: 4.5%;}.eu{width: 100%;}}
+@media (max-width: 57em){h1{font-size:5em;padding-right:0; }h2{font-size: 1.5em;line-height: 1em;font-weight:800;margin-bottom: 5%;}.front, .back, .editorGrafico, .editorCodigo{width: 38%;	padding: 2.6%;margin-left: 5%;}.frase2{font-size: 1.5em;margin-left: 10%;width: 40%;}.complementares li{font-size: 1em;}.habilidades{margin-top: 5%;}.logo{width: 35%;margin: 2% auto;margin-left: 4.5%;}.eu{width: 100%;}}
 /*782 px*/
 @media (max-width: 48.9em){.frase2{font-size: 1.4em;width: 50%;}.front, .back, .editorGrafico, .editorCodigo{width: 42%;margin-left: 1.8%;}}
 /*720px*/
 @media (max-width: 45em){.form{box-shadow: none;margin-left: 10%;width: 75%}header{height: 150px;}.front, .back, .editorGrafico, .editorCodigo{display: block;float: left;clear: both;width: 70%;padding: 5%;margin-left: 8%;}.frase2{width: 45%;margin-left: 5%;}.perfil-foto{margin-left: 12%;width:30%;border-radius: 20%;}.cursos, .sistemasOP
-{margin-left: 0;padding-bottom: 2em;max-width: 100%;width: 90%;}.footer nav li{margin-left: 1em;}h2{margin-bottom:2.5%;}.button{position: absolute;left: 15%;margin-top: 15%;width: 25%;}.logo{width: 35%;margin: 2% auto;margin-left: 10%;}}
+{margin-left: 0;padding-bottom: 2em;max-width: 90%;width: 90%;}.footer nav li{margin-left: 1em;}h1{font-size: 4em;}h2{margin-bottom:2.5%;}.button{position: absolute;left: 14%;margin-top: 15%;width: 26%;}.logo{width: 35%;margin: 2% auto;margin-left: 10%;}}
 /*608px*/
-@media (max-width: 38em){.label{font-size: 1.4em;}label{font-size: 1em;}.perfil-foto{margin: 0 auto;width: 50%;max-width: 100%;margin-left: 5%;}.frase2{padding-top: 5%;font-size: 1.6em;clear:both;width: 93%;}.footer nav li {display: block;	border-top: 1px solid black;}.footer nav{margin-top:2em;left:1.5em;}
-.button{position: absolute;left: 10%;margin-top: 20%;width: 55%;}
+@media (max-width: 38em){h1{padding: 2% auto;font-size: 5.5em; }.label{font-size: 1.4em;}label{font-size: 1em;}.perfil-foto{margin: 0 auto;width: 50%;max-width: 100%;margin-left: 5%;}.frase2{padding-top: 5%;font-size: 1.6em;clear:both;width: 93%;}.footer nav li {display: block;	border-top: 1px solid black;}.footer nav{margin-top:2em;left:1.5em;}
+.button{position: absolute;left: 11.5%;margin-top: 22.5%;width: 300px;}
 .logo {width: 50%;margin: 2% auto;margin-left: 10%;}header{height: 180px;}}
 /*480 px*/
-@media (max-width: 30em){.form{margin-left: 2%;width: 90%;padding: 0 1em;}form{ padding: 0;width: 100%;}.perfil-foto{width: 75%;}.logo{width: 60%;margin-left: 6.5%;}.button{margin-top: 25%;}.frase2{font-size: 1.4em;}}
+@media (max-width: 30em){.form{margin-left: 0;width: 90%;padding: 0 1em;}form{ padding: 0;width: 100%;}.perfil-foto{width: 75%;}.logo{width: 60%;margin-left: 6.5%;}.button{margin-top: 26%;left: 14.5%;}h1{padding-left: 4%;}.frase2{font-size: 1.4em;}}
 /* 432 px*/
-@media (max-width: 27em){.logo{width: 80%;margin-left: 2%;}.button{left: 10%;margin-top: 30%;width: 65%;}.cursos, .sistemasOP{margin: 0;padding: 0;width: 100%;}.lidaul{padding: 5%;}.h2complementares{
+@media (max-width: 27em){h1{width:50%;font-size: 5em;padding-left: 2%;}.button{width: 65%;margin-top: 28%;}.logo{width: 80%;margin-left: 2%;}.cursos, .sistemasOP{margin: 0;padding: 0;width: 100%;}.lidaul{padding: 5%;}.h2complementares{
 margin-left: 3.5%;}}
-@media(max-width: 22em){.form{padding: 0;}input[type="email"],textarea,input[type="text"]{width: 100%;
-}.logo{width: 90%;margin-left: 1.5%;}.button{margin-top: 32%;width: 75%;}}
+/*352px*/
+@media(max-width: 22em){h1{font-size: 4em}.form{padding: 0;width: 80%;padding-left: 2.5%;}input[type="email"],textarea,input[type="text"]{width: 100%;}.button{margin-top: 30%;width: 60%;}}
 
