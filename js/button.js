@@ -3,16 +3,22 @@ var hab = $(".habilidades, .imagem");var hd = $("header");var bt= $(".butt").tex
 /*texteare*/
 $("textarea").bind("input", function(e) {while($(this).outerHeight()<this.scrollHeight+parseFloat($(this).css("borderTopWidth"))+parseFloat($(this).css("borderBottomWidth"))&& $(this).height() < 500){$(this).height($(this).height()+1);};});
 
-Modernizr.load({
-			test:Modernizr.touch,
-			yep:'touch.js'
-		});
+
 
 $(function(){
 	if(Modernizr.touch){
-		alert('TOUCH tem tem');
-		
-
+		$(function(){
+			function init(){
+			var but = $(".butt");
+			but.addClass("animated bounceInRight");
+				$("h1").addClass("animated fadeInDown");
+				$("header").addClass("animated shake");
+				$(".frase2").addClass("animated tada");
+				$(".perfil-foto").addClass("animated wobble");
+				$(".front, .back").addClass("animated pulse");
+				}
+			init();
+		});
 	}else{
 		alert('NÃO TEM TOUCH');
 		
