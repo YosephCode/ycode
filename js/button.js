@@ -3,24 +3,19 @@ var hab = $(".habilidades, .imagem");var hd = $("header");var bt= $(".butt").tex
 /*texteare*/
 $("textarea").bind("input", function(e) {while($(this).outerHeight()<this.scrollHeight+parseFloat($(this).css("borderTopWidth"))+parseFloat($(this).css("borderBottomWidth"))&& $(this).height() < 500){$(this).height($(this).height()+1);};});
 
-
+function buttoon(){
+	var but = $(".butt");
+	but.addClass("animated bounceInRight");
+});
 
 $(function(){
 	if(Modernizr.touch){
-		$(function(){
-			function init(){
-			var but = $(".butt");
-			but.addClass("animated bounceInRight");
-				$("h1").addClass("animated fadeInDown");
-				$("header").addClass("animated shake");
-				$(".frase2").addClass("animated tada");
-				$(".perfil-foto").addClass("animated wobble");
-				$(".front, .back").addClass("animated pulse");
-				}
-			init();
-		});
+		buttoon();
 	}else{
-		alert('NÃO TEM TOUCH');
-		
+		$("h1").addClass("animated fadeInDown");
+		$("header").addClass("animated shake");
+		$(".frase2").addClass("animated tada");
+		$(".perfil-foto").addClass("animated wobble");
+		$(".front, .back").addClass("animated fadeInUp");	
 	}
 });
