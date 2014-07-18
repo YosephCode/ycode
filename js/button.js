@@ -3,15 +3,15 @@ var hab = $(".habilidades, .imagem");var hd = $("header");var bt= $(".butt").tex
 /*texteare*/
 $("textarea").bind("input", function(e) {while($(this).outerHeight()<this.scrollHeight+parseFloat($(this).css("borderTopWidth"))+parseFloat($(this).css("borderBottomWidth"))&& $(this).height() < 500){$(this).height($(this).height()+1);};});
 
-
+Modernizr.load({
+			test:Modernizr.touch,
+			yep:'touch.js'
+		});
 
 $(function(){
 	if(Modernizr.touch){
 		alert('TOUCH tem tem');
-		Modernizr.load({
-			test:Modernizr.touch,
-			yep:'touch.js'
-		});
+		
 
 	}else{
 		alert('NÃO TEM TOUCH');
