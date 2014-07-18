@@ -3,15 +3,18 @@ var hab = $(".habilidades, .imagem");var hd = $("header");var bt= $(".butt").tex
 /*texteare*/
 $("textarea").bind("input", function(e) {while($(this).outerHeight()<this.scrollHeight+parseFloat($(this).css("borderTopWidth"))+parseFloat($(this).css("borderBottomWidth"))&& $(this).height() < 500){$(this).height($(this).height()+1);};});
 
+
+
 $(function(){
-	function init(){
-	var but = $(".butt");
-	but.addClass("animated bounceInRight");
-	(function(){$("h1").addClass("animated fadeInDown")})();
-	(function(){$("header").addClass("animated shake")})();
-	(function(){$(".frase2").addClass("animated tada")})();
-	(function(){$(".perfil-foto").addClass("animated wobble")})();
-	(function(){$(".front, .back").addClass("animated pulse")})();
-}
-init();
+	if(Modernizr.touch){
+		alert('TOUCH tem tem');
+		Modernizr.load({
+			test:Modernizr.touch,
+			yep:'touch.js'
+		});
+
+	}else{
+		alert('NÃO TEM TOUCH');
+		
+	}
 });
