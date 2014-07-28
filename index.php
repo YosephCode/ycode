@@ -17,8 +17,8 @@
         <![endif]-->
        <section class="principal">
             <header>
-                <button class="no-js butt">Contato</button> 
                 <h1>Ycode</h1>
+                <button class="no-js butt">Contact</button> 
             </header>
 
             <article class="conteudo">
