@@ -91,7 +91,7 @@
                     <div class="cursos">
                         <h2 class="h2complementares">Additional Courses</h2>
                         <ul class="lidaul">
-                            <li>Web with Html, Css and Javascript (CAELUM)</li>
+                            <li>Web development with Html, Css and Javascript (CAELUM)</li>
                             <li>Front-end with Javascript and jQuery (CAELUM)</li>
                             <li>Computer Graphics (Seven)</li>
                         </ul>
