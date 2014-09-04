@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html ng-app="comentario" class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,19 +75,7 @@
                     </div>
                 </article>
 
-                <article class="form">
-                    <form>
-                        <h2 class="label">Talk with me!</h2>
-                            <label>Name</label>
-                            <input type="text" class="nome" required>
-                            <label>Email</label>
-                            <input type="email" class="email" required>
-                            <label>Message</label>
-                            <textarea class="textearea" required></textarea>
-                            
-                            <input type="submit" name="Submit"  class="sbmt" value="Submit" />
-                    </form> 
-                </article>
+                <chat-comentario></chat-comentario>
                 
                 <article class="complementares">
                     <div class="cursos">
@@ -122,6 +110,7 @@
         </section>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/respond.src.js"></script>
+        <script src="js/angular.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

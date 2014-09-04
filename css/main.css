@@ -56,14 +56,20 @@ float: left;clear: both;width: 40%;margin: 0 3%;padding: 3%;-webkit-transition: 
 .cursos{background: #fdf3dc;}
 .cursos:hover, .sistemasOP:hover{color:white;background-color:black;background:rgba(0,0,0,1);-webkit-transition:all 1s linear;-moz-transition: all 1s linear;-o-transition: all 1s linear;transition: all 1s linear;}
 .form{float: left;clear: both;padding-bottom:1.5%;margin:0 auto;/* 7% 0 0 5%*/width: 60%;margin-left: 20%;margin-top: 7%;border-top: 1px solid rgba(106,77,48,0.9);-moz-box-shadow:  1px 2px 2px 2px rgba(106,77,48,0.9);-webkit-box-shadow: 1px 2px 2px 2px rgba(106,77,48,0.9);box-shadow:  1px 2px 2px 2px rgba(106,77,48,0.9);}
-form{padding: 5%;}
+form{padding: 5%;padding-top: 2%;}
+.angular-comentario{padding-right: 40px;}
+.span-name{font-weight: bold;font-size: 18px;word-break: break-all;color:#063100;color: rgba(6,49,0,0.8)}
+.span-email{font-style: italic;word-break: break-all;color:#43675D;}
+.span-comentario{word-break: break-all;}
 label,.label{color: rgba(46,34,31,0.95);width: 100%;display: block;text-shadow: 1px 1px 1px #ccc;font-weight: 700;line-height: 40px;font-size: 1.4em;}
 .label{font-size: 1.8em;font-weight: bold;color: rgba(46,34,31,1);}
-input[type="submit"]{float: left;margin-top: 4%;font-weight: bold;line-height: 1;width:60px;height:60px;cursor:pointer;color: #fff;text-align: center;text-shadow: 0 -1px 15px #64799e;background: #4a7e9e;border: 1px solid #5c6f91;-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;}input[type="submit"]:active{outline: 0;}
+.hint { color:#999; opacity:0; display:inline;transition: opacity .5s ease-in-out;-o-transition: opacity .5s ease-in-out;-moz-transition: opacity .5s ease-in-out;-webkit-transition: opacity .5s ease-in-out;}
+input:focus+.hint, textarea:focus+.hint { opacity:1; }
+input[type="submit"]{float: left;margin-top: 5%;font-weight: bold;line-height: 1;width:60px;height:60px;cursor:pointer;color: #fff;text-align: center;text-shadow: 0 -1px 15px #64799e;background: #4a7e9e;border: 1px solid #5c6f91;-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;}input[type="submit"]:active{outline: 0;}
  input[type="email"],textarea,input[type="text"]{font-size: 1em;display: block;border: 1.5px solid rgba(106,77,48,0.9);height: 30px;width: 95%;-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5); 
     -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);-moz-border-radius: 0 10px;-ms-border-radius: 0 10px;-o-border-radius: 0 10px;-webkit-border-radius:0  10px;border-radius:0 10px  10px;padding-left:0.8%;}
 input[type="email"]:focus, textarea:focus,input[type="text"]:focus{outline: 0;}
-textarea{padding-top: 2%;resize:none;}
+textarea{padding-top: 2%;resize:none;word-break: break-all;}
 /*RODAPÉ*/
 .footer{position: relative;width: 100%;clear: both;background:rgba(241,238,217,0.5);}
 .footer nav{padding-top: 0;margin:0 auto;line-height: 2.5;position: absolute;   right: 10%;}
@@ -208,7 +214,7 @@ opacity: 0;-webkit-transform: translate3d(3000px, 0, 0);-ms-transform: translate
 /*608px*/
 @media (max-width: 38em){.label{font-size: 1.4em;}label{font-size: 1em;}.perfil-foto{margin: 0 auto;width: 50%;max-width: 100%;margin-left: 22%;}.eu{margin-left: 3%;}.frase2{padding-top: 5%;font-size: 1.6em;clear:both;width: 75%;margin-left: 15%}.footer nav li {display: block;  border-top: 1px solid black;}.footer nav{margin-top:2em;left:1.5em;}}/*/mediaquery*/
 /*480 px*/
-@media (max-width: 30em){.butt{width: 185px;}.form{margin-left: 0;width: 90%;padding: 0 1em;}form{ padding: 0;width: 100%;}.frase2{font-size: 1.2em;width: 70%;}h1{font-size: 4.2em; width: 188px;}header{height: 140px;}}/*/mediaquery*/
+@media (max-width: 30em){.angular-comentario{padding-right: 0;}.span-name{font-size: 1em;}.span-email{font-size: 0.9em;}.butt{width: 185px;}.form{margin-left: 0;width: 90%;padding: 0 1em;}form{ padding: 0;width: 100%;}.frase2{font-size: 1.2em;width: 70%;}h1{font-size: 4.2em; width: 188px;}header{height: 140px;}}/*/mediaquery*/
 /* 432 px*/
 @media (max-width: 27em){.cursos, .sistemasOP{margin: 0;padding: 0;max-width:100%;width: 100%;}.lidaul{padding: 5%;padding-top: 2%;}.h2complementares{
 margin-left: 3.5%;padding-top: 2%;}.frase2{width: 90%;margin-left: 5%;}.perfil-foto{margin: 0 auto;width: 90%;max-width: 100%;margin-left: 2.5%;}}/*/mediaquery*/

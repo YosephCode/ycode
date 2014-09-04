@@ -8,6 +8,32 @@ if(Modernizr.touch){/*Sem-animate-no-mobile*/}else{$(function(){var but = $(".bu
 'timeStamp', 'trace', 'warn'];var length = methods.length;var console = (window.console = window.console || {});while (length--){method = methods[length];
 if (!console[method]) {console[method] = noop;}}}());
 
+var app = angular.module('comentario', []);
+
+app.controller('coments', function($scope){
+	$scope.users = [{name:"Pedro", email:"pedro@gmail.com", comentario:"Muito bom o site!"},
+				   {name:"Nadini", email:"falcao@gmail.com", comentario:"Muito bom o site!"},
+	               {name:"Fernando", email:"ferraz@gmail.com", comentario:"Muito bom o site!"}];
+
+	$scope.adicionar = function(u){
+		$scope.users.push(angular.copy(u));
+		u.name=null;
+		u.email=null;
+		u.comentario=null;
+	}
+});
+
+
+app.directive('chatComentario', function(){
+	return{
+		restrict:'E',
+		templateUrl: function(elem, attrs){
+			return 'chat-comentario.php';
+		}
+	};
+
+});
+
 
 
 
