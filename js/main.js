@@ -11,9 +11,9 @@ if (!console[method]) {console[method] = noop;}}}());
 var app = angular.module('comentario', []);
 
 app.controller('coments', function($scope){
-	$scope.users = [{name:"Pedro", email:"pedro@gmail.com", comentario:"Muito bom o site!"},
-				   {name:"Nadini", email:"falcao@gmail.com", comentario:"Muito bom o site!"},
-	               {name:"Fernando", email:"ferraz@gmail.com", comentario:"Muito bom o site!"}];
+	$scope.users = [{name:"Pedro", email:"pedro@gmail.com", comentario:"Gostei de ver! Aplicou angularJs nesse formulário."},
+				   {name:"Nadini", email:"falcao@gmail.com", comentario:"Parabéns Yoseph, vejo que utilizou o respondJs para as MediaQuerys funcionar nos navegadores mais antigos."},
+	               {name:"Fernando", email:"ferraz@gmail.com", comentario:"Legal! Com muito Html5 e css3."}];
 
 	$scope.adicionar = function(u){
 		$scope.users.push(angular.copy(u));
