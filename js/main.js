@@ -9,24 +9,11 @@ if(Modernizr.touch){/*Sem-animate-no-mobile*/}else{$(function(){var but = $(".bu
 if (!console[method]) {console[method] = noop;}}}());
 
 var app = angular.module('comentario', ["firebase"]);
-/*
-app.controller('coments', function($scope){
-	$scope.users = [{name:"Pedro", email:"pedro@gmail.com", comentario:"Gostei de ver! Aplicou angularJs nesse formulário."},
-				   {name:"Nadini", email:"falcao@gmail.com", comentario:"Parabéns Yoseph, vejo que utilizou o respondJs para as MediaQuerys funcionar nos navegadores mais antigos."},
-	               {name:"Fernando", email:"ferraz@gmail.com", comentario:"Legal! Com muito Html5 e css3."}];
 
-	$scope.adicionar = function(u){
-		$scope.users.push(angular.copy(u));
-		u.name=null;
-		u.email=null;
-		u.comentario=null;
-	}
-});
-*/
 app.constant("FIREBASE_URL", "https://ycode.firebaseio.com/ycodes/" );
 app.directive('chatComentario', function(){
 	return{
-		restrict:'E',
+		restrict:'A',
 		templateUrl: function(elem, attrs){
 			return 'chat-comentario.php';
 		}

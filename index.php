@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 8]>         <html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="comentario" class="no-js lt-ie9 "> <![endif]-->
 <!--[if gt IE 8]><!--> <html ng-app="comentario" class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -74,8 +75,8 @@
                         </ul>
                     </div>
                 </article>
-
-                <chat-comentario></chat-comentario>
+                <article chat-comentario class="form" ng-controller="CommentListController"> </article>
+                <!--<chat-comentario></chat-comentario>-->
                 
                 <article class="complementares">
                     <div class="cursos">
