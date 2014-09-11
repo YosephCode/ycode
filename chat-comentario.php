@@ -7,7 +7,7 @@
         <!--<div class="angular-comentario" ng-repeat="u in users">-->
         <div class="angular-comentario" ng-repeat="y in ycodes" ng-show="mostra">
             <span><strong class="span-name">{{y.name}}</strong></span> || <span class="span-email">{{y.email}}</span><br>
-            <span class="span.comentario">{{y.comentario}}</span> <font class="comment-data">{{ y.id | date : 'dd/MM/yyyy - h:mm:ss'}}</font>
+            <span class="span.comentario">{{y.comentario}}</span> <span class="comment-data">{{ y.id | date : 'dd/MM/yyyy - h:mm:ss'}}</span>
             <hr>
             <br>
         </div>
