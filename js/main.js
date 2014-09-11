@@ -8,8 +8,8 @@ if(Modernizr.touch){/*Sem-animate-no-mobile*/}else{$(function(){var but = $(".bu
 'timeStamp', 'trace', 'warn'];var length = methods.length;var console = (window.console = window.console || {});while (length--){method = methods[length];
 if (!console[method]) {console[method] = noop;}}}());
 
-var app = angular.module('comentario', []);
-
+var app = angular.module('comentario', ["firebase"]);
+/*
 app.controller('coments', function($scope){
 	$scope.users = [{name:"Pedro", email:"pedro@gmail.com", comentario:"Gostei de ver! Aplicou angularJs nesse formulário."},
 				   {name:"Nadini", email:"falcao@gmail.com", comentario:"Parabéns Yoseph, vejo que utilizou o respondJs para as MediaQuerys funcionar nos navegadores mais antigos."},
@@ -22,8 +22,8 @@ app.controller('coments', function($scope){
 		u.comentario=null;
 	}
 });
-
-
+*/
+app.constant("FIREBASE_URL", "https://ycode.firebaseio.com/ycodes/" );
 app.directive('chatComentario', function(){
 	return{
 		restrict:'E',
@@ -34,6 +34,46 @@ app.directive('chatComentario', function(){
 
 });
 
+function CommentListController($scope, $firebase, FIREBASE_URL) {
+	
+	// Carrega os comentarios
+	var commentsRef = new Firebase(FIREBASE_URL);
+	$scope.ycodes = $firebase(commentsRef);
+	
+	// Remove comentario
+    //$scope.removeComment = function (index, comment, event) {
+
+       // Evita remocao errada
+       //if (comment.id === undefined)return;
+
+       // Firebase: Remove comentario do escopo
+      // $scope.ycodes.$remove(comment.id);
+
+    //};
+
+	// Adiciona comentario
+    $scope.addComment  = function () {
+
+        // Captura tempo em milissegundos para Id
+        var timestamp = new Date().valueOf();
+
+        // Referencia o comentario
+        var commentRef = new Firebase(FIREBASE_URL + timestamp);
+        //var commentRef = new Firebase(FIREBASE_URL);
+		
+		// Firebase: Cria nova entrada
+        $firebase(commentRef).$set({
+        	id: timestamp,
+            name : $scope.commentname,
+            email : $scope.commentemail,
+            comentario: $scope.commentcomentario
+        });
+
+        //$scope.text = "";
+
+    };
+
+}
 
 
 

@@ -110,7 +110,10 @@
         </section>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/respond.src.js"></script>
-        <script src="js/angular.js"></script>
+<!--        <script src="js/angular.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.6/angular.min.js"></script>
+        <script src="https://cdn.firebase.com/js/client/1.0.15/firebase.js"></script>
+        <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
