@@ -2,9 +2,10 @@
     
     <form>
         <h2 class="label">Talk with me!</h2>
-        <br>
+                
+        <div class="mostrarComments"><input type="checkbox" ng-model="mostra"><span class="verComments">Ver comentários</span></div><br>
         <!--<div class="angular-comentario" ng-repeat="u in users">-->
-        <div class="angular-comentario" ng-repeat="y in ycodes">
+        <div class="angular-comentario" ng-repeat="y in ycodes" ng-show="mostra">
             <span><strong class="span-name">{{y.name}}</strong></span> || <span class="span-email">{{y.email}}</span><br>
             <span class="span.comentario">{{y.comentario}}</span> <font class="comment-data">{{ y.id | date : 'dd/MM/yyyy - h:mm:ss'}}</font>
             <hr>

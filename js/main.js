@@ -39,6 +39,7 @@ function CommentListController($scope, $firebase, FIREBASE_URL) {
 	// Carrega os comentarios
 	var commentsRef = new Firebase(FIREBASE_URL);
 	$scope.ycodes = $firebase(commentsRef);
+	$scope.mostra=true;
 	
 	// Remove comentario
     //$scope.removeComment = function (index, comment, event) {
