@@ -57,7 +57,9 @@ function CommentListController($scope, $firebase, FIREBASE_URL) {
             comentario: $scope.commentcomentario
         });
 
-        //$scope.text = "";
+        $scope.commentname = "";
+        $scope.commentemail = "";
+        $scope.commentcomentario = "";
 
     };
 
