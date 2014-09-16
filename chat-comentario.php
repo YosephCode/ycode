@@ -6,7 +6,7 @@
    
     <div class="angular-comentario" ng-repeat="y in ycodes" ng-show="mostra">
         <span><strong class="span-name">{{y.name}}</strong></span> || <span class="span-email">{{y.email}}</span><br>
-        <span class="span.comentario">{{y.comentario}}</span> <span class="comment-data">{{ y.id | date : 'dd/MM/yyyy - h:mm:ss'}}</span>
+        <span class="span.comentario">{{y.comentario}}</span><br /> <span class="comment-data">{{ y.id | date : 'dd/MM/yyyy - h:mm:ss'}}</span>
         <hr>
         <br>
     </div>
@@ -20,7 +20,7 @@
     <div class="hint">Exemplo: meuemail@meuemail.com</div>
     <label>Message</label>
     <textarea class="textearea" ng-model="commentcomentario" required></textarea>
-    <div class="red hint">É necessário preencher os três campos para adicionar seu comentário na página.</div>
+    <div class="red hint">Preencher os três campos para adicionar seu comentário na página.</div>
     <br>
     <input type="submit" name="Submit" ng-click="addComment()" ng-disabled="!(commentname && commentemail && commentcomentario)" class="sbmt" value="Submit" />
 </form> 
