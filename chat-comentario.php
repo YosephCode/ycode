@@ -1,7 +1,7 @@
 <form>
     <h2 class="label">Talk with me!</h2>
             
-    <div class="mostrarComments"><input type="checkbox" ng-model="mostra"><span class="verComments">Ver comentários</span></div><br>
+    <div class="mostrarComments"><input type="checkbox" ng-model="mostra"><span class="verComments">See comments</span></div><br>
     
    
     <div class="angular-comentario" ng-repeat="y in ycodes" ng-show="mostra">
