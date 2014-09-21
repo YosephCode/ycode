@@ -234,7 +234,7 @@ opacity: 0;-webkit-transform: translate3d(3000px, 0, 0);-ms-transform: translate
 @media (min-width: 80em){.principal{margin: 0 8em;}.complementares{border-radius: 20px 20px 0 0;}}/*/mediaquery*/
 /*1120 px*/
 @media (max-width: 72em){.front, .back, .editorGrafico, .editorCodigo{width: 30%;margin-left: 8%;}.frase2{font-size: 1.8em;
-margin-left: 18%;padding-top: 2%;width: 43%; } .cursos, .sistemasOP{padding: 2%;width: 50%;}.form{width: 80%;margin-left: 9.5%;}}/*/mediaquery*/
+margin-left: 18%;padding-top: 2%;width: 43%; } .cursos, .sistemasOP{padding: 2%;width: 50%;}.form{width: 80%;margin-left: 10%;}}/*/mediaquery*/
 /*880 px*/
 @media (max-width: 57em){h1{display:block;font-size:5.5em;padding: 0;margin: 0 auto; }h2{font-size: 1.5em;line-height: 1em;font-weight:800;margin-bottom: 5%;}.front, .back, .editorGrafico, .editorCodigo{width: 38%;  padding: 2.6%;margin-left: 5%;}.frase2{font-size: 1.5em;margin-left: 10%;width: 40%;}.complementares li{font-size: 1em;}.habilidades{margin-top: 5%;}.butt{position: static; display: block;margin: 0 auto;}}/*/mediaquery*/
 /*782 px*/
