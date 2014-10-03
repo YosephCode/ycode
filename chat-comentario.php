@@ -19,7 +19,7 @@
     <input type="email" ng-model="commentemail" class="email" required>
     <div class="hint">Exemplo: meuemail@meuemail.com</div>
     <label>Message</label>
-    <textarea class="textearea" ng-model="commentcomentario" required></textarea>
+    <textarea class="textearea" ng-model="commentcomentario" required maxlength="800" onkeyup="resizeTextarea('InputTextArea')" id="InputTextArea"></textarea>
     <div class="red hint">Preencher os três campos para adicionar seu comentário na página.</div>
     <br>
     <input type="submit" name="Submit" ng-click="addComment()" ng-disabled="!(commentname && commentemail && commentcomentario)" class="sbmt" value="Submit" />

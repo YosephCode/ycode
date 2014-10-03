@@ -3,7 +3,7 @@ html {font-size: 1em;line-height: 1.4;}
 ::-moz-selection {background: #b3d4fc;text-shadow: none;}
 ::selection {background: #b3d4fc;text-shadow: none;}
 audio,canvas,img,video {vertical-align: middle;}
-textarea {resize: vertical;}
+textarea {resize: vertical;max-height: 200px;}
 .browsehappy {margin: 0.2em 0;background: #ccc;color: #000;padding: 0.2em 0;}
 /*-----RESET-----*/
 * {margin:0;padding:0;list-style:none;vertical-align:baseline;}
